@@ -7,7 +7,7 @@ conn_string = "host='localhost' dbname='postgres' user='postgres' password='pass
 conn = psycopg2.connect(conn_string)
 cur = conn.cursor()
 
-browser = webdriver.Chrome('C://Users//KWONEUNBI//Documents//chromedriver_win32//chromedriver.exe')
+browser = webdriver.Chrome('-------file name--------------')
 
 input_data = []
 for i in range(10,923):
